@@ -13,6 +13,18 @@ body{
   background: linear-gradient(128deg, rgba(212,15,15,1) 0%, rgba(99,17,71,1) 100%);
 }
 
+
+.back-btn {
+  background-color: #0c74ca;
+  height: 50px;
+  width: 50px;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 30%;
+  margin-left: 95%;
+  margin-bottom: 40px;
+}
+
 .wrapper,
 .wrapper .img-area,
 .mentorgrid .card{
@@ -30,8 +42,6 @@ body{
 .heading{
   color: black;
   text-align: center;
-  margin-bottom: 50px;
-  margin-bottom: 30px;
   font-size: 25px;
 }
 
