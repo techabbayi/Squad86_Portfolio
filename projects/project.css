@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(270deg, rgb(255, 188, 2) 0%, rgba(0,2,3,1) 40%);
+}
+header{
+    background-color: black;
+    text-align: center;
+    color: rgba(255, 188, 2,1);
+    height: 100px;
+    border-radius: 10px;
+    padding: auto;
+    margin-bottom: 20px;
+    border: 2px solid rgba(255, 188, 2);
+}
+header>h1{
+    font-family: Verdana;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px orangered;
+
+}
+
+#contant{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.one{
+    height: 400px;
+    background-color: white;
+}
+.load{
+    color: rgba(255, 188, 2);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.loader {
+    width: 65px;
+    aspect-ratio: 1;
+    position: relative;
+    left: 48vw;
+    top: 30vh;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px inset rgba(255, 188, 2);
+    animation: l5 2.5s infinite;
+  }
+  .loader:after {
+    animation-delay: -1.25s;
+    border-radius: 0;
+  }
+  @keyframes l5{
+    0%    {inset:0    35px 35px 0   }
+    12.5% {inset:0    35px 0    0   }
+    25%   {inset:35px 35px 0    0   }
+    37.5% {inset:35px 0    0    0   }
+    50%   {inset:35px 0    0    35px}
+    62.5% {inset:0    0    0    35px}
+    75%   {inset:0    0    35px 35px}
+    87.5% {inset:0    0    35px 0   }
+    100%  {inset:0    35px 35px 0   }
+  }
+
