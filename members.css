@@ -21,9 +21,14 @@ body{
   font-size: larger;
   font-weight: bolder;
   border-radius: 30%;
-  margin-left: 95%;
+  margin-left: 90vw;
   margin-bottom: 40px;
 }
+
+.back-btn:hover {
+  background-color: cadetblue;
+}
+
 
 .wrapper,
 .wrapper .img-area,
@@ -56,11 +61,17 @@ body{
 
 
 #maingrid{
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto auto auto auto auto;
   margin-left: 80px;
   margin-right: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 60px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
 }
 
 .wrapper{
@@ -299,8 +310,4 @@ body{
 .item:hover .social-icons a {
   color: #0c74ca; 
 }
-
-/* Adding a more dynamic background effect
-.item:active .wrapper 
-  background: linear-gradient(135deg, rgba(0, 204, 255, 1), rgba(255, 0, 150, 1)); */
 
