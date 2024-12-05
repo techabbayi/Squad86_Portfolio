@@ -28,7 +28,7 @@
         <header id="header">
             <div class="heading"> SQUAD86 </div>
         </header>
-        <div class="bimg1"><img style="height: 500px;" src="pimg.png" alt=""></div>
+        <div class="bimg1"><img src="pimg.png" alt=""></div>
         <!-- <div class="figma1" ></div> -->
         <div id="full-head">
             <div class="terminal">
@@ -36,8 +36,7 @@
                 <h2 style="color: aliceblue;">X</h2><br>
             </div>
             <div class="terminal">
-                <span class="prompt"> > </span>
-                <div class="typing" style="font-weight: bold;"> Apollo University...</div>
+                <div class="typing" style="font-weight: bold;"> >> Apollo University...</div>
             </div>
         </div>
         <section id="fullsq">
@@ -47,11 +46,14 @@
         </section>
 
         <div class="glow-btn">
+            <button class="glow-on-hover" style="font-family: 'Comic Sans MS', cursive, sans-serif;display: none;"
+                type="button"  onclick="window.open('./Achivements/achivements.html', '_blank');">Achivements</button>
             <button class="glow-on-hover" style="font-family: 'Comic Sans MS', cursive, sans-serif;" type="button"
                 onclick="window.open('members.html', '_blank');">Our Squad</button>
             <button class="glow-on-hover" style="font-family: 'Comic Sans MS', cursive, sans-serif;"
                 type="button"  onclick="window.open('projects/Projects.html', '_blank');">Projects</button>
         </div>
+
 
         <section>
             <h1>Squad86 Gallery</h1>
@@ -88,7 +90,7 @@
                         <img src="./images/image7.jpg" alt="img">
                     </div>
                     <div>
-                        <img style="height:600px;" src="./images/image8.jpeg" alt="img">
+                        <img id="K" src="./images/image8.jpeg" alt="img">
                     </div>
                 </div>
                 <div class="column">
@@ -214,9 +216,9 @@
         });
     </script>
 
-    <script>
+    <!-- <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
-  </script>  
+  </script>   -->
 
 
     <script src="./assets/js/chatbot.js"></script>
