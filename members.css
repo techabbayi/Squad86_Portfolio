@@ -27,6 +27,7 @@ body{
 
 .back-btn:hover {
   background-color: cadetblue;
+  cursor: pointer;
 }
 
 
