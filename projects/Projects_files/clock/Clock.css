@@ -1,0 +1,150 @@
+
+body {
+  background-color: #000000;
+
+}
+#Head{
+  padding-top: 20px;
+  position: relative;
+  height: 60px;
+}
+.S86{
+  color: red;
+  margin-left: 100px;
+  display: inline;
+}
+a{
+  position: absolute;
+  left: 80%;
+  padding: 10px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 50px;
+  text-align: center;
+  color:white;
+  
+  text-decoration: none;
+  font-size: 25px;
+  font-stretch: 2px;
+  font-weight: bolder;
+  border-radius: 20px;
+  transition: background-color 0.5s, color 0.5s;
+}
+a:hover{
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+
+.CLOCK{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #432818;
+  border-radius: 40px 0 40px 0;
+}
+img{
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  z-index: 2;
+  
+}
+
+.clock {
+  width: 350px;
+  height: 350px;
+  background-color: #bb9457;
+  background: radial-gradient(circle,rgb(241, 148, 148), red);
+  border-radius: 100%;
+  border: 5px solid #6f1d1b;
+  box-shadow: 1px 1px 10px rgb(113, 185, 243);
+  position: relative;
+}
+
+
+
+.numbers div {
+  position: absolute;
+  font-size: 27px;
+  font-weight: bolder;
+  color: #000000;
+  /* text-shadow: 1px 2px 4px #ff4b1f; */
+}
+
+.twelve {
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.three {
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.six {
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nine {
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrows {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrows::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.7);
+  z-index: 4;
+}
+
+.arrows div {
+  width: 7px;
+  height: 120px;
+  background-color: #e0b1cb;
+  position: absolute;
+  bottom: 50%;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.7);
+  border-radius: 50% 50% 0 0;
+  transform-origin: bottom center;
+  z-index: 3;
+}
+
+.arrows .hour {
+  height: 80px;
+  background-color: #252525;
+  transform: rotate(30deg);
+  box-shadow: 0px 1px 1px white;
+}
+.arrows .minute{
+  background-color: #a56abd;
+}
+
+.arrows .second {
+  background-color: #fdda76;
+  transform: rotate(250deg);
+ 
+}
+
+

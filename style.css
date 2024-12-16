@@ -243,8 +243,8 @@ body {
 #fullimg{
   height: 302px;
   width: 470px;
-  border-radius: 5%;
-  box-shadow: 0 0 15px white;
+  border-radius: 2%;
+  box-shadow: 0 0 3px white;
 }
 
 #full-head{
@@ -842,6 +842,11 @@ body.show-emoji-picker em-emoji-picker {
     border-radius: 10px;
   }
   #K{
+    display: none;
+  }
+}
+@media (max-width: 600px){
+  .bimg1{
     display: none;
   }
 }
