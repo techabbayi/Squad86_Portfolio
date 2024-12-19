@@ -8,7 +8,7 @@ body {
 
 header {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     background: #212121;
     color: #ffffff;
     border-bottom: 1px solid #444;
@@ -114,7 +114,7 @@ footer p {
 
     .back-button {
         font-size: 1rem;
-        border-radius: 100%;
+        /* border-radius: 100%; */
         font-weight: bolder;
         padding: zero;
         height: 20px;
@@ -154,5 +154,20 @@ footer p {
 
     .card p {
         font-size: 0.8rem;
+    }
+}
+
+/* cards */
+@media (max-width: 800px){
+    .achievement-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .card{
+        max-width:413px ;
+        max-height: auto;
     }
 }
